@@ -58,13 +58,16 @@ def e5_solulu():
 
 if __name__ == "__main__":
     while True:
-        question = input('which question are we solving? (e5, e6a, e6b): ').lower()
+        question = input('which question are we solving? (e5, e6, e6a, e6b): ').lower()
         match question:
             case 'e5':
                 e5_solulu()
             case 'e6a':
                 e6a_solulu()
             case 'e6b':
+                e6b_solulu()
+            case 'e6':
+                e6a_solulu()
                 e6b_solulu()
             case 'exit':
                 break
